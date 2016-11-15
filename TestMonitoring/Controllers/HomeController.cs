@@ -16,7 +16,7 @@ namespace TestMonitoring.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            System.Diagnostics.Trace.TraceError("If you're seeing this, something bad happened");
             return View();
         }
 
