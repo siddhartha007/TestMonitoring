@@ -8,7 +8,7 @@ namespace TestMonitoring
     {
         public void Configuration(IAppBuilder app)
         {
-            //This is updated
+            //This is updated new change
             ConfigureAuth(app);
         }
     }
